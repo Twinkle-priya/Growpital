@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 1;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+#one{
+    margin: 10px 24px;
+    
+}
+
+#one list1{
+    margin:59px;
+    margin: 3px 6px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+ .navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1rem; 
+}
+.navbar ul li a{
+    padding: 3px 22px;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    font-family:'Balsamiq Sans', cursive; ;
+}
+
+.navbar ul li a:hover{
+    color:black;
+    background-color: aliceblue;
+}
+body::before{
+    
+        content: "";
+        background :url('bg1.jpg');
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity:0.5;  
+ }
+ ul img{
+    border-radius: 600px;
+    width: 30px;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    
+    
+ }
+
+ .ss{
+    position:absolute;
+    left: 40%;
+     top: 15%;
+    width: 450px;
+    height: 550px;
+    
+}
+
+ #Home::before{
+    content: "";
+    background :url('bg1.jpg');
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.89;    
+
+}
+ 
